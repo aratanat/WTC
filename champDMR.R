@@ -7,6 +7,7 @@ champ.DMR<-function(beta.norm=NULL, pd=NULL, lassoStyle="max", lassoRadius=2000,
 # Assuming the following about the input beta:
 # 1. No XY chromosomes
 # 2. "Sample_Group" in the phenotype/samplesheet file has to be "C" for controls and "T" for cases
+# 3. ChAMP has to be loaded (v1.6 is what I used)
 
   data(probe.features)
   data(probe.450K.VCs.af)
